@@ -4,98 +4,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400|Montserrat:300,400,700|Roboto:400,700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Cahee</title>
 </head>
-<haeder class="home">
-
-    <nav>
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">SERVICES</a>
-        <a href="#">GALLERY</a>
-        <a href="#">BLOG</a>
-        <a href="#">CONTACT</a>
-    </nav>
-    <article>
-        <h2>Fresh Life</h2>
-        <p>Sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco.
-        </p>
-    </article>
-</haeder>
 
 <body>
-    <article>
-    <div class="about">
-        
-            <h2>About Us</h2>
-            <p>About Cahee magna aliqua. it enim ad minim veniam, quis
+
+    <header class="header">
+        <div class="header_wrap">
+            <div class="header_flex">
+                <div class='header_logo'>CAHEE</div>
+                <div class='header_nav'>
+                    <nav>
+                        <a class="header_item" href="#home">HOME</a>
+                        <a class="header_item" href="#about">ABOUT</a>
+                        <a class="header_item" href="#services">SERVICES</a>
+                        <a class="header_item" href="#gallery">GALLERY</a>
+                        <a class="header_item" href="#blog">BLOG</a>
+                        <a class="header_item" href="#contact">CONTACT</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="home" id="home">
+            <h1 class="section__title">Fresh Life</h1>
+            <p class="section__subtitle">Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco.
+            </p>
+            <a class="btn" href="#">GET FREE NOW</a>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="about" id="about">
+            <h1 class="section_title_2">About Us</h1>
+            <p class="section_subtitle_2">About Cahee magna aliqua. it enim ad minim veniam, quis
                 nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat. Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum.
             </p>
-            <p>Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
+            <p class="section_subtitle_2">Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
                 error sit voluptatem accusantium doloremque laudantium, totam
                 rem aperiam, eaque ipsa quae ab illo inventore.
             </p>
-        
+            <div class="about__img"></div>
+        </section>
     </div>
-    <div class="services">
-        <h2>Our Services</h2>
-        <button>Online Shopping</button>
-        <button>Quality Product</button>
-        <button>Domestic & international Delivery</button>
-        <button>Well Organized</button>
-    </div>
-    <div class="gallery">
-        <h2>Gallery</h2>
-        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. </p>
-            <button>VIEW MORE</button>
-    </div>
-</article>
-    <div class="subscribe">
-        <h2>Subscribe To Us</h2>
-        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
-        </p>
-        <input type='text'>
-        <button>SUBSCRIBE</button>
-    </div>
-    <div class="blog">
-        <h2>Blog</h2>
-        <p>Dolore magna aliqua.Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.Duis aute irure dolor in reprehenderit in
-            voluptate velit.</p>
-        </div>
-            <h3>Green Smoothies: Too Much of a Good Thing? </h3>
-            <p>By Auskteez - 2 hour</p>
 
-            <h3>Growing Food and a “Thirst” for Innovation </h3>
-            <p>By Auskteez - 3 hour</p>
+    <div class="container">
+        <section class="services" id="services">
+            <h1 class="section_title_2">Our Services</h1>
+            <div class="">
+                <ul>
+                    <li><a target="_blank" href="">Online Shopping <img src="" alt=""></a></li>
+                    <li><a target="_blank" href="">Quality Product<img src="" alt=""></a></li>
+                    <li><a target="_blank" href="">Domestic & international Delivery<img src="" alt=""></a></li>
+                    <li><a target="_blank" href="">Well Organized<img src="" alt=""></a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
 
-            <h3>Pesticides & Food: What You Need to Know </h3>
-            <p>By Auskteez - 6 hours</p>
+    <div class="container">
+        <section class="gallery" id="gallery">
 
-    
+            <h1 class='section__title'>Gallery</h1>
+            <div class="gallery_subtitle">
+                <p class="section__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. </p>
+            </div>
+            <a href="">VIEW MORE</a>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="subscribe" id="subscribe">
+            <h2 class="section__title">Subscribe To Us</h2>
+            <p class="section__subtitle">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <div>
+                <input type='text'>
+                <button>SUBSCRIBE</button>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container">
+        <section class="blog" id="blog">
+            <h1 class="section_title_2">Blog</h1>
+            <p class="section_subtitle_2">Dolore magna aliqua.Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.Duis aute irure dolor in reprehenderit in
+                voluptate velit.</p>
+            <div>
+                <h3>Green Smoothies: Too Much of a Good Thing? </h3>
+                <p>By Auskteez - 2 hour</p>
+            </div>
+            <div>
+                <h3>Growing Food and a “Thirst” for Innovation </h3>
+                <p>By Auskteez - 3 hour</p>
+            </div>
+            <div>
+                <h3>Pesticides & Food: What You Need to Know </h3>
+                <p>By Auskteez - 6 hours</p>
+            </div>
+            <a href="">VIEW MORE</a>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="contact" id="contact">
+            <div>
+                <h1 class='section__title'>Contact</h1>
+                <p class="section__subtitle">For new project ideas, business or anything
+                    you'd like to discuss, contact
+                </p>
+            </div>
+            <div class="container_left ">
+                <form>
+                    <input type="text" name="name">
+                    <input type="text" name='mail'>
+                    <textarea name="message" rows="10" cols="30">
+                The cat was playing in the garden.
+                </textarea>
+                </form>
+                <div class="container_right">
+                    <h3>ADDRESS</h3>
+                    <p>City, Street</p>
+                    <h3>EMAIL</h3>
+                    <p>Cahee@mail.com</p>
+                    <h3>PHONE</h3>
+                    <p>+0123456789</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+
+
 </body>
-
-<footer>
-    <div class="contact">
-<h2>Contact</h2>
-<p>For new project ideas, business or anything
-    you'd like to discuss, contact
-</p>
-    </div>
-    
-
-</footer>
-
 
 </html>
