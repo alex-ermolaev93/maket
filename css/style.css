@@ -80,6 +80,7 @@ ul {
 
 .header__item {
     margin-right: 30px;
+    text-transform: uppercase;
 }
 
 .home{
@@ -91,9 +92,13 @@ ul {
     align-items:left;
     z-index: 1;
 }
+.home__img{
+background-image: url(/img/header/img1.jpg);
+background-size: 100% auto;
+}
 .section__title{
     font-family:  'Fira Sans', sans-serif; 
     font-size: 30px;
     font-weight: 900;
-    
+
 }
