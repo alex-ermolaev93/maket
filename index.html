@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,400|Montserrat:300,400,700|Roboto:400,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Cahee</title>
 </head>
@@ -12,32 +13,46 @@
 <body>
 
     <header class="header">
-        <div class="header_wrap">
-            <div class="header_flex">
-                <div class='header_logo'>CAHEE</div>
-                <div class='header_nav'>
+        <div class="header__wrap">
+            <div class="header__flex">
+                <div class='header__logo'>Cahee</div>
+                <div class='header__nav'>
                     <nav>
-                        <a class="header_item" href="#home">HOME</a>
-                        <a class="header_item" href="#about">ABOUT</a>
-                        <a class="header_item" href="#services">SERVICES</a>
-                        <a class="header_item" href="#gallery">GALLERY</a>
-                        <a class="header_item" href="#blog">BLOG</a>
-                        <a class="header_item" href="#contact">CONTACT</a>
+                        <a class="header__item" href="#home">HOME</a>
+                        <a class="header__item" href="#about">ABOUT</a>
+                        <a class="header__item" href="#services">SERVICES</a>
+                        <a class="header__item" href="#gallery">GALLERY</a>
+                        <a class="header__item" href="#blog">BLOG</a>
+                        <a class="header__item" href="#contact">CONTACT</a>
                     </nav>
                 </div>
+                <img src="/img/icon/menu-svgrepo-com.svg" alt="menu" class="header__menu">
             </div>
+            <ul class="header__nav-mod">
+                <li class="header__item"><a class="header__item" href="#home">HOME</a></li>
+                <li class="header__item"><a class="header__item" href="#about">ABOUT</a></li>
+                <li class="header__item"><a class="header__item" href="#services">SERVICES</a>/li>
+                <li class="header__item"><a class="header__item" href="#gallery">GALLERY</a></li>
+                <li class="header__item"><a class="header__item" href="#blog">BLOG</a></li>
+                <li class="header__item"><a class="header__item" href="#contact">CONTACT</a></li>
+            </ul>
         </div>
     </header>
 
     <div class="container">
         <section class="home" id="home">
-            <h1 class="section__title">Fresh Life</h1>
-            <p class="section__subtitle">Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco.
-            </p>
-            <a class="btn" href="#">GET FREE NOW</a>
+            <div class="home__flex">
+                <h1 class="section__title">Fresh Life</h1>
+
+                <p class="section__subtitle">Sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco.
+                </p>
+                <a class="btn" href="#">GET FREE NOW</a>
+            </div>
+
         </section>
+        <div class="home__img"></div>
     </div>
 
     <div class="container">
@@ -97,7 +112,6 @@
         </section>
     </div>
 
-
     <div class="container">
         <section class="blog" id="blog">
             <h1 class="section_title_2">Blog</h1>
@@ -149,9 +163,6 @@
 
         </section>
     </div>
-
-
-
 
 </body>
 
