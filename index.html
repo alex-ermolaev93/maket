@@ -6,164 +6,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <title>Cahee</title>
 </head>
 
 <body>
-    <div class="home__img">
-        <header class="header">
+    <div class="cup__img">
+        <!-- <img src="img/header/img.png" alt="cup"> -->
+
+        <header class="header__main">
+
             <div class="header__wrap">
                 <div class="header__flex">
                     <div class='header__logo'>Cahee</div>
                     <div class='header__nav'>
-                        <nav>
-                            <a class="header__item" href="#home">Home</a>
-                            <a class="header__item" href="#about">About</a>
-                            <a class="header__item" href="#services">Services</a>
-                            <a class="header__item" href="#gallery">Gallery</a>
-                            <a class="header__item" href="#blog">Blog</a>
-                            <a class="header__item" href="#contact">Contact</a>
-                        </nav>
+                        <ul>
+                            <li class="header__item"><a href="#home">Home</a></li>
+                            <li class="header__item"><a href="#about">About</a></li>
+                            <li class="header__item"><a href="#services">Services</a></li>
+                            <li class="header__item"><a href="#gallery">Gallery</a></li>
+                            <li class="header__item"><a href="#blog">Blog</a></li>
+                            <li class="header__item"><a href="#contact">Contact</a></li>
+                        </ul>
                     </div>
-                    <img src="" alt="menu" class="header__menu">
+                    <img class="header__menu" src="img/icon/iconfinder_menu-alt_134216.png" alt="menu">
                 </div>
                 <ul class="header__nav-mod">
-                    <li class="header__item"><a class="header__item" href="#home">Home</a></li>
-                    <li class="header__item"><a class="header__item" href="#about">About</a></li>
-                    <li class="header__item"><a class="header__item" href="#services">Services</a>/li>
-                    <li class="header__item"><a class="header__item" href="#gallery">Gallery</a></li>
-                    <li class="header__item"><a class="header__item" href="#blog">Blog</a></li>
-                    <li class="header__item"><a class="header__item" href="#contact">Contact</a></li>
+                    <li class="header__item"><a href="#home">Home</a></li>
+                    <li class="header__item"><a href="#about">About</a></li>
+                    <li class="header__item"><a href="#services">Services</a></li>
+                    <li class="header__item"><a href="#gallery">Gallery</a></li>
+                    <li class="header__item"><a href="#blog">Blog</a></li>
+                    <li class="header__item"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </header>
-
+        <!-- <div class="main__img"> </div>-->
         <div class="container">
             <section class="home" id="home">
                 <div class="home__flex">
-                    <h1 class="section__title">Fresh Life</h1>
-
-                    <p class="section__subtitle">Sed do eiusmod tempor incididunt ut labore et
+                    <h2 class="home__title">Fresh Life</h2>
+                    <p class="home__subtitle">Sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco.
                     </p>
-                    <a class="btn" href="#">GET FREE NOW</a>
-                </div>
 
+                    <button class="home__btn">GET FREE NOW</button>
+                </div>
+                <img src="img/icon/scroll.png" alt="scroll">
             </section>
-            <div class="home__img"></div>
         </div>
     </div>
+   
 
     <div class="container">
         <section class="about" id="about">
-            <h1 class="section_title_2">About Us</h1>
-            <p class="section_subtitle_2">About Cahee magna aliqua. it enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum.
-            </p>
-            <p class="section_subtitle_2">Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
-                error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore.
-            </p>
-            <div class="about__img"></div>
+            <div class="about__flex">
+                <div class="about__section">
+                    <h2 class="about__title">About Us</h2>
+
+                    <p class="about__subtitle"> About Cahee magna aliqua. it enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum.<br><span><br>
+
+                            Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
+                            error sit voluptatem accusantium doloremque laudantium, totam
+                            rem aperiam, eaque ipsa quae ab illo inventore.
+                    </p>
+                </div>
+                <div class='about__img'><img src="img/body/whit_cup.png" alt="whit_cup"></div>
+            </div>
         </section>
+
+
     </div>
 
     <div class="container">
         <section class="services" id="services">
-            <h1 class="section_title_2">Our Services</h1>
-            <div class="">
-                <ul>
-                    <li><a target="_blank" href="">Online Shopping <img src="" alt=""></a></li>
-                    <li><a target="_blank" href="">Quality Product<img src="" alt=""></a></li>
-                    <li><a target="_blank" href="">Domestic & international Delivery<img src="" alt=""></a></li>
-                    <li><a target="_blank" href="">Well Organized<img src="" alt=""></a></li>
-                </ul>
+            <div class="services__flex">
+
+                <div class="services__item">
+                    <ul>
+                        <li><button class="services__item__2" href="#">Online Shopping <img src="img/icon/icon.png"
+                                    alt=""></button></li>
+                        <li><button class="services__item__2" href="#">Quality Product<img src="img/icon/icon (1).png"
+                                    alt=""></button></li>
+                        <li><button class="services__item__2" href="#">Domestic & international Delivery<img
+                                    src="img/icon/icon (2).png" alt=""></button> </li>
+                        <li><button class="services__item__2" href="#">Well Organized<img src="img/icon/icon (3).png"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="service__img">
+                    <h2 class="services__title">Our Services</h2><img src="img/body/tomatoes.png" alt="tomatoes">
+                </div>
+
             </div>
         </section>
     </div>
 
     <div class="container">
         <section class="gallery" id="gallery">
+            <div class="gallery__flex">
+                <h2 class='gallery__title'>Gallery</h2>
 
-            <h1 class='section__title'>Gallery</h1>
-            <div class="gallery_subtitle">
-                <p class="section__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                <p class="gallery_subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et
                     dolore magna aliqua.Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat. </p>
+
+                <div class="gallery_item1"><img src="img/body/doomed.png" alt="doomed"></div>
+                <div class="gallery_item2"><img src="img/body/blueberries_cup.png" alt="blueberries_cup"></div>
+                <div class="gallery_item3"><img src="img/body/blackberry.png" alt="blackberry"></div>
+                <div class="gallery_item4"><img src="img/body/milk.png" alt="milk"></div>
+                <div class="gallery_item5"><img src="img/body/persimmon.png" alt="persimmon"></div>
+                <button class="gallery__btn">view more</button>
             </div>
-            <a href="">VIEW MORE</a>
         </section>
     </div>
 
     <div class="container">
         <section class="subscribe" id="subscribe">
-            <h2 class="section__title">Subscribe To Us</h2>
-            <p class="section__subtitle">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
-            </p>
-            <div>
-                <input type='text'>
-                <button>SUBSCRIBE</button>
+            <div class="subscride__flex">
+                <h2 class="subscribe__title">Subscribe To Us</h2>
+                <p class="subscribe__subtitle">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <div class="subscribe__import">
+                    <input type='text'>
+                </div>
+                <button class='subscribe__btn'>SUBSCRIBE</button>
+                <div class="subscribe__img"><span> </span><img src="img/body/blackberry2.png" alt="blackberry2"></div>
+
             </div>
         </section>
     </div>
 
     <div class="container">
         <section class="blog" id="blog">
-            <h1 class="section_title_2">Blog</h1>
-            <p class="section_subtitle_2">Dolore magna aliqua.Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.Duis aute irure dolor in reprehenderit in
-                voluptate velit.</p>
-            <div>
-                <h3>Green Smoothies: Too Much of a Good Thing? </h3>
-                <p>By Auskteez - 2 hour</p>
+            <div class="blog__flex">
+                <h2 class="blog__title">Blog</h2>
+                <p class="blog__subtitle">Dolore magna aliqua.Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.Duis aute irure dolor in reprehenderit in
+                    voluptate velit.</p>
+                <div class="blog__item">
+                    <img class="" src="img/body/kivi.png" alt="kivi">
+                    <h3>Green Smoothies: Too Much of a Good Thing? </h3>
+                    <p>By Auskteez - 2 hour</p>
+                </div>
+                <div class="blog__item">
+                    <img src="img/body/soup.png" alt="soup">
+                    <h3>Growing Food and a “Thirst” for Innovation </h3>
+                    <p>By Auskteez - 3 hour</p>
+                </div>
+                <div class="blog__item">
+                    <img src="img/body/raspberries.png" alt="raspberries">
+                    <h3>Pesticides & Food: What You Need to Know </h3>
+                    <p>By Auskteez - 6 hours</p>
+                </div>
+                <button class="blog__btn"><a href="#">VIEW MORE</a></button>
             </div>
-            <div>
-                <h3>Growing Food and a “Thirst” for Innovation </h3>
-                <p>By Auskteez - 3 hour</p>
-            </div>
-            <div>
-                <h3>Pesticides & Food: What You Need to Know </h3>
-                <p>By Auskteez - 6 hours</p>
-            </div>
-            <a href="">VIEW MORE</a>
         </section>
     </div>
 
     <div class="container">
         <section class="contact" id="contact">
-            <div>
-                <h1 class='section__title'>Contact</h1>
-                <p class="section__subtitle">For new project ideas, business or anything
+            <div class="contact__flex">
+                <h2 class='contact__title'>Contact</h2>
+                <p class="contact__subtitle">For new project ideas, business or anything
                     you'd like to discuss, contact
                 </p>
             </div>
-            <div class="container_left ">
-                <form>
-                    <input type="text" name="name">
-                    <input type="text" name='mail'>
+            <div class="contact__left ">
+                <form >
+                    <input type="text" name="Auskteez Tran">
+                    <input type="text" name='Your email...'>
+                    <input type="text" name="Your phone number">
                     <textarea name="message" rows="10" cols="30">
-                The cat was playing in the garden.
-                </textarea>
+                        Your messge...                </textarea>
+                <button class="contact__btn">send</button>
                 </form>
-                <div class="container_right">
-                    <h3>ADDRESS</h3>
-                    <p>City, Street</p>
-                    <h3>EMAIL</h3>
-                    <p>Cahee@mail.com</p>
-                    <h3>PHONE</h3>
-                    <p>+0123456789</p>
+                <div class="contact__right">
+                    <p>ADDRESS<br>
+                        City, Street<br>
+                        EMAIL<br>
+                        Cahee@mail.com<br>
+                        PHONE<br>
+                        +0123456789</p>
                 </div>
             </div>
 
         </section>
     </div>
+    <footer class="footer__flex">
+        <p class="footer__item1">© 2015 Company. All right reserved.</p>
+        <p class="footer__item2">Cahee</p>
+        <p class="footer__item3">Made with love by Auskteez</p>
+        
+    </footer>
 
 </body>
 
