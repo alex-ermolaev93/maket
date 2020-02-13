@@ -1,13 +1,11 @@
 /* header */
 .header {
   position: absolute;
-  height: 100px;
   width: 100%;
   z-index: 5;
 }
 
 .header__main__menu__wrapper {
-  width: 1200px;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,15 +34,17 @@
 }
 
 .header__menu__list {
-  width: 557px;
   display: flex;
   justify-content: space-between;
+  width: 65%;
   z-index: 10;
 }
 .header__menu__list__item {
+
   list-style: none;
 }
 .header__menu__list__item__btn {
+  padding-left: 35px;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: 700;
