@@ -4,216 +4,412 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/header.css" type="text/css">
     <link rel="stylesheet" href="./css/layout.css" type="text/css">
+
+    <link rel="stylesheet" href="./css/style-global.css" type="text/css">
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css">
+
+
+    <link rel="stylesheet" href="./css/header.css" type="text/css">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+    <link rel="stylesheet" href="./css/about.css" type="text/css">
+    <link rel="stylesheet" href="./css/services.css" type="text/css">
+    <link rel="stylesheet" href="./css/gallery.css" type="text/css">
+    <link rel="stylesheet" href="./css/subscribe.css" type="text/css">
+    <link rel="stylesheet" href="./css/blog.css" type="text/css">
+    <link rel="stylesheet" href="./css/contact.css" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-
 
     <title>Cahee</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__wrapper">
-            <div class='header__logo'>Cahee</div>
-                <div class='header__main__menu'>
-                    <ul class="header__menu__list">
-                        <li class="header__menu__list__item"><a href="#home">Home</a></li>
-                        <li class="header__menu__list__item"><a href="#about">About</a></li>
-                        <li class="header__menu__list__item"><a href="#services">Services</a></li>
-                        <li class="header__menu__list__item"><a href="#gallery">Gallery</a></li>
-                        <li class="header__menu__list__item"><a href="#blog">Blog</a></li>
-                        <li class="header__menu__list__item"><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
 
-        </div>
-        <!-- <img class="header__menu" src="img/icon/iconfinder_menu-alt_134216.png" alt="menu">
-        <ul class="header__nav-mod">
-                <li class="header__item"><a href="#home">Home</a></li>
-                <li class="header__item"><a href="#about">About</a></li>
-                <li class="header__item"><a href="#services">Services</a></li>
-                <li class="header__item"><a href="#gallery">Gallery</a></li>
-                <li class="header__item"><a href="#blog">Blog</a></li>
-                <li class="header__item"><a href="#contact">Contact</a></li>
-            </ul> -->
+    <div class="main-wrapper">
 
-    </header>
-    <div class="wrapper">
-        <div class="cup__img">
-            <div class="main__img"> <img class="home__img" src="img/header/Untitled.png" alt="cup"></div>
+        <header class="header" id="header">
             <div class="container">
-                <section class="home" id="home">
-                    <div class="home__flex">
-                        <div class="home__section">
-                            <h2 class="home__title">Fresh Life</h2>
-                            <p class="home__subtitle">Sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco.
-                            </p>
+                <div class="header__main__menu__wrapper">
+                    <!-- <div class="home__page__content__img"></div> -->
 
-                            <button class="home__btn">GET FREE NOW</button>
+                    <div class="header__logo__wrapper">
+                        <h1 class="header__logo__title">Cahee</h1>
+                    </div>
+                    <div class='header__menu__wrapper'>
+                        <ul class="header__menu__list">
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn header__menu__list__item__btn__active'
+                                    href="#home">Home</a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn' href="#about">About</a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn' href="#services">Services</a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn' href="#gallery">Gallery</a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn' href="#blog">Blog</a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a class='header__menu__list__item__btn' href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+
+        <main class="main-content">
+
+            <div class="home__page__img"></div>
+            <section class="home" id="home">
+                <div class="container">
+
+                    <div class="home__page__content__wrapper">
+
+                        <div class="home__page__wrapper">
+                            <div class="home__page__inner">
+                                <div class="home__page__title__inner">
+                                    <h2 class="home__page__title">Fresh Life</h2>
+                                </div>
+
+                                <div class='home__page__subtitle__inner'>
+                                    <p class="home__page__subtitle">Sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco.
+                                    </p>
+                                </div>
+
+                                <div class="home__page__btn__wrapper">
+                                    <button class="home__page__btn">
+                                        <a class="home__page__btn__text" href="#">get free now</a>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!-- <div class="home__page__scroll__wrapper">
+                                <a class="home__page__scroll " href="#header">
+                                    <img class="home__scroll" src="img/icon/scroll.png" alt="scroll">
+                                </a>
+                            </div> -->
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="about" id="about">
+                <div class="about__wrapper">
+                    <div class="container">
+                        <div class="about__page__wrapper">
+
+                            <div class="about__page__inner">
+                                <div class="about__page__title__wrapper">
+                                    <h2 class="about__page__title">About Us</h2>
+                                </div>
+                                <div class="about__page__subtitle__wrapper">
+                                    <p class="about__page__subtitle"> About Cahee magna aliqua. it enim ad minim veniam,
+                                        quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in
+                                        voluptate velit esse cillum.<br><span><br>
+
+                                            Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
+                                            error sit voluptatem accusantium doloremque laudantium, totam
+                                            rem aperiam, eaque ipsa quae ab illo inventore.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class='about__page__img__wrapper'>
+                                <img class="about__page__img" src="img/body/whit_cup.png" alt="whit_cup">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services" id="services">
+                <div class="container">
+                    <div class="services__page__wrapper">
+
+                        <div class="services__page__menu__wrapper">
+                            <ul class="services__page__menu__list">
+                                <li class="services__page__menu__list__item">
+                                    <button class="services__page__menu__list__item__btn">
+                                        <a class="services__page__menu__list__item__btn__text" href="#">Online
+                                            Shopping</a>
+                                        <img class="services__page__menu__list__item__img" src="img/icon/icon.png"
+                                            alt="shopping-basket">
+                                    </button>
+                                </li>
+                                <li class="services__page__menu__list__item">
+                                    <button class="services__page__menu__list__item__btn">
+                                        <a class="services__page__menu__list__item__btn__text" href="#">Quality
+                                            Product</a>
+                                        <img class="services__page__menu__list__item__img" src="img/icon/icon (1).png"
+                                            alt="product">
+                                    </button>
+                                </li>
+                                <li class="services__page__menu__list__item">
+                                    <button class="services__page__menu__list__item__btn">
+                                        <a class="services__page__menu__list__item__btn__text" href="#">Domestic &
+                                            international<br>Delivery</a>
+                                        <img class="services__page__menu__list__item__img" src="img/icon/icon (2).png"
+                                            alt="international">
+                                    </button>
+                                </li>
+                                <li class="services__page__menu__list__item">
+                                    <button class="services__page__menu__list__item__btn">
+                                        <a class="services__page__menu__list__item__btn__text" href="#">Well
+                                            Organized</a>
+                                        <img class="services__page__menu__list__item__img" src="img/icon/icon (3).png"
+                                            alt="carrot">
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service__page__wrapper">
+                            <div class="service__page__title__wrapper">
+                                <h2 class="services__page__title">Our Services</h2>
+                            </div>
+                            <div class="service__page__img__wrapper">
+                                <img class="service__page__img" src="img/body/tomatoes.png" alt="tomatoes">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="gallery" id="gallery">
+                <div class="container">
+                    <div class="gallery__page__wrapper">
+                        <div class="gallery__page__inner">
+                            <div class="gallery__page__title__wrapper">
+                                <h2 class='gallery__page__title'>Gallery</h2>
+                            </div>
+                            <div class="gallery__page__subtitle__wrapper">
+                                <p class="gallery__page__subtitle">Consectetur adipisicing elit, sed do eiusmod
+                                    tempor
+                                    incididunt ut
+                                    labore et
+                                    dolore magna aliqua.Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat. </p>
+                            </div>
+                        </div>
+                        <div class="gallery__page__img__wrapper">
+                            <div class="gallery__page__img__inner">
+                                <img class="gallery__page__img__item__first" src="img/body/doomed.png" alt="doomed">
+                            </div>
+                            <div class="gallery__page__img__inner">
+                                <img class="gallery__page__img__item__second" src="img/body/blueberries_cup.png"
+                                    alt="blueberries_cup">
+                            </div>
+                            <div class="gallery__page__img__inner">
+                                <img class="gallery__page__img__item__third" src="img/body/blackberry.png"
+                                    alt="blackberry">
+                            </div>
+                            <div class="gallery__page__img__inner">
+                                <img class="gallery__page__img__item__fourth" src="img/body/milk.png" alt="milk">
+                            </div>
+                            <div class="gallery__page__img__inner">
+                                <img class="gallery__page__img__item__fifth" src="img/body/persimmon.png"
+                                    alt="persimmon">
+                            </div>
+                        </div>
+                        <div class="gallery__page__btn__wrapper">
+                            <button class="gallery__page__btn">
+                                <a class="gallery__page__btn__text" href="#"> view more</a>
+                            </button>
+                        </div>
+                    </div>
+            </section>
+
+
+
+            <section class="subscribe" id="subscribe">
+                <div class="container">
+                    <div class="subscribe__page__wrapper">
+                        <div class="subscribe__page__inner">
+                            <div class="subscribe__page__title__wrapper">
+                                <h2 class="subscribe__page__title">Subscribe To Us</h2>
+                            </div>
+                            <div class="subscribe__page__subtitle__wrapper">
+                                <p class="subscribe__page__subtitle">Dolor sit amet, consectetur adipisicing elit,
+                                    sed
+                                    do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
+                                </p>
+                            </div>
+                            <div class="subscribe__page__import__wrapper">
+                                <input class="subscribe__page__import" type='email'>
+                            </div>
+                            <div class="subscribe__page__btn__wrapper">
+                                <button class='subscribe__page__btn'>
+                                    <a class="subscribe__page__btn__text" href="#">subscribe</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="subscribe__page__img__wrapper">
+                            <!-- <img class='subscribe__page__img' src="img/body/blackberry2.png" alt="blackberry2"> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="blog" id="blog">
+                <div class="container">
+                    <div class="blog__page__wrapper">
+                        <div class="blog__page__inner">
+                            <div class="blog__page__title__wrapper">
+                                <h2 class="blog__page__title">Blog</h2>
+                            </div>
+                            <div class="blog__page__subtitle__wrapper">
+                                <p class="blog__page__subtitle">Dolore magna aliqua.Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                    commodo consequat.Duis aute irure dolor in reprehenderit in
+                                    voluptate velit.</p>
+                            </div>
+                        </div>
+                        <!-- todo  добавить day "nov" add -->
+                        <div class="blog__page__item__wrapper">
+                            <div class="blog__page__item__first__wrapper">
+                                <div class="blog__page__day">
+                                    <p>20</p>
+                                    <p>nov</p>
+                                </div>
+
+                                <div class="blog__page__item__first__img__wrapper">
+                                    <img class="blog__page__item__first__img" src="img/body/kiwi.png" alt="kiwi">
+                                </div>
+                                <div class="blog__page__item__text__wrapper">
+                                    <h3 class="blog__page__item__text__title">Green Smoothies: Too Much of a Good
+                                        Thing?
+                                    </h3>
+                                    <p class="blog__page__item__text__subtitle">By Auskteez - 2 hour</p>
+                                </div>
+                            </div>
+                            <div class="blog__page__item__second__wrapper">
+                                <div class="blog__page__day">
+
+                                </div>
+
+                                <div class="blog__page__item__second__img__wrapper">
+                                    <img class="blog__page__item__second__img" src="img/body/soup.png" alt="soup">
+                                </div>
+                                <div class="blog__page__item__text__wrapper">
+                                    <h3 class="blog__page__item__text__title">Growing Food and a “Thirst” for
+                                        Innovation
+                                    </h3>
+                                    <p class="blog__page__item__text__subtitle">By Auskteez - 3 hour</p>
+                                </div>
+                            </div>
+                            <div class="blog__page__item__third__wrapper">
+                                <div class="blog__page__day">
+
+                                </div>
+
+                                <div class="blog__page__item__third__img__wrapper">
+                                    <img class="blog__page__item__third__img" src="img/body/raspberries.png"
+                                        alt="raspberries">
+                                </div>
+                                <div class="blog__page__item__text__wrapper">
+                                    <h3 class="blog__page__item__text__title">Pesticides & Food: What You Need to
+                                        Know
+                                    </h3>
+                                    <p class="blog__page__item__text__subtitle">By Auskteez - 6 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__page__btn__wrapper">
+                            <button class="blog__page__btn">
+                                <a class="blog__page__btn__text" href="#">View more</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="contact__page__content__wrapper">
+                        <div class="contact__page__content__title__wrapper">
+                            <h2 class='contact__page__content__title'>Contact</h2>
+                        </div>
+                        <div class="contact__page__content__subtitle__wrapper">
+                            <p class="contact__page__content__subtitle">For new project ideas, business or anything
+                                you'd like to discuss, contact
+                            </p>
                         </div>
                     </div>
 
-                </section>
-                <img class="home__scroll" src="img/icon/scroll.png" alt="scroll">
+                    <div class="contact__page__submit__wrapper">
+                        <div class="contact__page__submit__inner">
+                            <form class="contact__page__submit">
+                                <div class="contact__page__submit__item__first">
+                                    <input class="contact__page__submit__item" type="text" name="Auskteez Tran">
+                                </div>
+                                <div class="contact__page__submit__item__second">
+                                    <input class="contact__page__submit__item" type="email" name='Your email...'>
+                                </div>
+                                <div class="contact__page__submit__item__third">
+                                    <input class="contact__page__submit__item" type="number" name="Your phone number">
+                                </div>
+                                <div class="contact__page__submit__item__fourth">
+                                    <textarea class="contact__page__submit__comment" type="comment" rows="10"
+                                        cols="30"> </textarea>
+                                </div>
+                                <div class="contact__page__submit__item__fifth">
+                                    <input class="contact__btn" type='submit' value="send">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contact__page__my-contact__list__wrapper">
+                            <h3 class="contact__page__my-contact__list__title">address</h3>
+                            <p class="contact__page__my-contact__list__subtitle">City, Street</p>
+                            <h3 class="contact__page__my-contact__list__title">email</h3>
+                            <p class="contact__page__my-contact__list__subtitle">Cahee@mail.com</p>
+                            <h3 class="contact__page__my-contact__list__title">phone</h3>
+                            <p class="contact__page__my-contact__list__subtitle">+0123456789</p>
+                        </div>
+                    </div>
+                    <div class="contact__page__img__wrapper">
+                        <!-- <img src="./img/body/sun.png" alt="sun" class="contact__page__img"> -->
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <p class="footer__item1">© 2015 Company. All right reserved.</p>
+                <p class="footer__item2">Cahee</p>
+                <p class="footer__item3">Made with love by Auskteez</p>
             </div>
-        </div>
-
-
-        <div class="container">
-            <section class="about" id="about">
-                <div class="about__flex">
-                    <div class="about__section">
-                        <h2 class="about__title">About Us</h2>
-
-                        <p class="about__subtitle"> About Cahee magna aliqua. it enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum.<br><span><br>
-
-                                Nim id est labirum. Sed ut perspiciatis unde omnis iste natus
-                                error sit voluptatem accusantium doloremque laudantium, totam
-                                rem aperiam, eaque ipsa quae ab illo inventore.
-                        </p>
-                    </div>
-                    <div class='about__img'><img src="img/body/whit_cup.png" alt="whit_cup"></div>
-                </div>
-            </section>
-
-
-        </div>
-
-        <div class="container">
-            <section class="services" id="services">
-                <div class="services__flex">
-
-                    <div class="services__item">
-                        <ul>
-                            <li><button class="services__item__2" href="#">Online Shopping <img src="img/icon/icon.png"
-                                        alt=""></button></li>
-                            <li><button class="services__item__2" href="#">Quality Product<img
-                                        src="img/icon/icon (1).png" alt=""></button></li>
-                            <li><button class="services__item__2" href="#">Domestic & international<br> Delivery<img
-                                        src="img/icon/icon (2).png" alt=""></button> </li>
-                            <li><button class="services__item__2" href="#">Well Organized<img
-                                        src="img/icon/icon (3).png" alt=""></a></li>
-                        </ul>
-                    </div>
-                    <div class="service__img">
-                        <h2 class="services__title">Our Services</h2><img src="img/body/tomatoes.png" alt="tomatoes">
-                    </div>
-
-                </div>
-            </section>
-        </div>
-
-        <div class="container">
-            <section class="gallery" id="gallery">
-                <div class="gallery__flex">
-                    <h2 class='gallery__title'>Gallery</h2>
-
-                    <p class="gallery_subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore magna aliqua.Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. </p>
-
-                    <div class="gallery_item1"><img src="img/body/doomed.png" alt="doomed"></div>
-                    <div class="gallery_item2"><img src="img/body/blueberries_cup.png" alt="blueberries_cup"></div>
-                    <div class="gallery_item3"><img src="img/body/blackberry.png" alt="blackberry"></div>
-                    <div class="gallery_item4"><img src="img/body/milk.png" alt="milk"></div>
-                    <div class="gallery_item5"><img src="img/body/persimmon.png" alt="persimmon"></div>
-                    <button class="gallery__btn">view more</button>
-                </div>
-            </section>
-        </div>
-
-        <div class="container">
-            <section class="subscribe" id="subscribe">
-                <div class="subscride__flex">
-                    <h2 class="subscribe__title">Subscribe To Us</h2>
-                    <p class="subscribe__subtitle">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolor magna aliqua. Ut enim ad minim veniam.
-                    </p>
-                    <div class="subscribe__import">
-                        <input type='text'>
-                    </div>
-                    <button class='subscribe__btn'>SUBSCRIBE</button>
-                    <div class="subscribe__img"><span> </span><img src="img/body/blackberry2.png" alt="blackberry2">
-                    </div>
-
-                </div>
-            </section>
-        </div>
-
-        <div class="container">
-            <section class="blog" id="blog">
-                <div class="blog__flex">
-                    <h2 class="blog__title">Blog</h2>
-                    <p class="blog__subtitle">Dolore magna aliqua.Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.Duis aute irure dolor in reprehenderit in
-                        voluptate velit.</p>
-                    <div class="blog__item">
-                        <img class="" src="img/body/kivi.png" alt="kivi">
-                        <h3>Green Smoothies: Too Much of a Good Thing? </h3>
-                        <p>By Auskteez - 2 hour</p>
-                    </div>
-                    <div class="blog__item">
-                        <img src="img/body/soup.png" alt="soup">
-                        <h3>Growing Food and a “Thirst” for Innovation </h3>
-                        <p>By Auskteez - 3 hour</p>
-                    </div>
-                    <div class="blog__item">
-                        <img src="img/body/raspberries.png" alt="raspberries">
-                        <h3>Pesticides & Food: What You Need to Know </h3>
-                        <p>By Auskteez - 6 hours</p>
-                    </div>
-                    <button class="blog__btn"><a href="#">VIEW MORE</a></button>
-                </div>
-            </section>
-        </div>
-
-        <div class="container">
-            <section class="contact" id="contact">
-                <div class="contact__flex">
-                    <h2 class='contact__title'>Contact</h2>
-                    <p class="contact__subtitle">For new project ideas, business or anything
-                        you'd like to discuss, contact
-                    </p>
-                </div>
-                <div class="contact__left ">
-                    <form>
-                        <input type="text" name="Auskteez Tran">
-                        <input type="text" name='Your email...'>
-                        <input type="text" name="Your phone number">
-                        <textarea name="message" rows="10" cols="30">
-                        Your messge...                </textarea>
-                        <button class="contact__btn">send</button>
-                    </form>
-                    <div class="contact__right">
-                        <p>ADDRESS<br>
-                            City, Street<br>
-                            EMAIL<br>
-                            Cahee@mail.com<br>
-                            PHONE<br>
-                            +0123456789</p>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-
-        <div class='footer'></div>
-        <footer class="footer__flex">
-            <p class="footer__item1">© 2015 Company. All right reserved.</p>
-            <p class="footer__item2">Cahee</p>
-            <p class="footer__item3">Made with love by Auskteez</p>
-
         </footer>
     </div>
 

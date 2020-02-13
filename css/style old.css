@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,13 +20,13 @@ body {
 	flex: 0 0 auto;
 }
 /* -------------------------- */
-a {
+/* a {
   text-decoration: none;
 }
 
 ul {
-  list-style: none;
-}
+  list-style: none; 
+} */
 
 /* heder----- */
 
@@ -141,7 +141,7 @@ ul {
   font-size: 20px;
   font-weight: 300;
   line-height: 27px;
-  margin: 30px 0;
+ 
 }
 .home__scroll {
 }

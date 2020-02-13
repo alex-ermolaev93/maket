@@ -1,0 +1,52 @@
+.about {
+  position: relative;
+  min-height: 700px;
+  font-family: "Raleway";
+}
+.about__wrapper {
+  padding: 10px;
+  background-color: #00c4c4;
+  background-image: radial-gradient(
+    circle 1125px at center,
+    rgba(0, 196, 196, 0.9) 0%,
+    rgba(0, 183, 183, 0.9) 32%,
+    rgba(0, 173, 173, 0.9) 68%,
+    rgba(0, 156, 156, 0.9) 100%
+  );
+}
+.about__page__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.about__page__inner{
+    
+}
+.about__page__title__wrapper{
+
+}
+.about__page__title{
+    width: 394px;
+    height: 67px;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.about__page__subtitle__wrapper{
+
+}
+.about__page__subtitle{
+    width: 499px;
+    height: 188px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.about__page__img__wrapper{
+    margin-left: -5%;
+    margin-right: 5%;
+}

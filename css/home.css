@@ -1,0 +1,81 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway";
+  z-index: 2;
+}
+
+/* content */
+.home__page__wrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* max-width: 100%; */
+  min-height: 100vh;
+
+}
+.home__page__inner {
+  width: 375px;
+  height: 150px;
+}
+.home__page__title__inner {
+  padding-bottom: 20px;
+}
+.home__page__title {
+  width: 287px;
+  height: 46px;
+  color: #262626;
+  font-family: "Raleway - Heavy";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.home__page__subtitle__inner {
+  padding: 25px 0;
+}
+.home__page__subtitle {
+  color: #262626;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.home__page__btn__wrapper {
+}
+.home__page__btn {
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 20px 30px rgba(255, 96, 51, 0.3);
+  background-color: #ff6033;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.home__page__btn__text {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* .home__scroll {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+} */
+.home__page__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: #f9f9fb;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/header/strawberry.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 80vw 100%;
+  z-index: 1;
+}
