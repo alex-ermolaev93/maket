@@ -3,7 +3,7 @@
   min-height: 50%;
   font-family: "Raleway";
 }
-.about__page__wrapper {
+.about__wrapper {
   max-width: 100%;
   padding: 50px 0;
   background-color: #00c4c4;
@@ -15,37 +15,42 @@
     rgba(0, 156, 156, 0.9) 100%
   );
 }
-.about__page__inner {
+/* content */
+.about__inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-direction: row-reverse;
 }
-.about__page__content__wrapper {
-  width: 50%;
-
+.about__content__wrapper {
+  margin: 0;
+  padding: 0;
 }
-.about__page__title__wrapper {
-
+.about__title__inner {
 }
-.about__page__title {
+.about__title {
   padding: 5px 0;
   color: #ffffff;
   font-size: 90px;
   font-weight: 700;
 }
-.about__page__subtitle__wrapper {
-  
+.about__subtitle__inner {
 }
-.about__page__subtitle {
+.about__subtitle {
+  width: 100%;
   padding: 5px 0;
   color: #ffffff;
   font-size: 17px;
   font-weight: 300;
-
+  line-height: 4vh;
 }
-.about__page__img__wrapper {
-  padding-right: 50px ;
+.about__img__wrapper {
+  padding: 0;
+}
+.about__page__img__inner{
+  
 }
 .about__page__img {
-  padding-top: 35px;
+  margin-left: -15%;
+  margin-right: 15%;
 }

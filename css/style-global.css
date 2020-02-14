@@ -11,6 +11,12 @@ html,
 body {
   height: 100%;
 }
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
 .main-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -22,3 +28,5 @@ body {
 .footer {
 	flex: 0 0 auto;
 }
+
+

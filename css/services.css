@@ -3,31 +3,37 @@
   min-height: 100vh;
   font-family: "Raleway";
 }
-.services__page__wrapper {
+.services__wrapper {
   padding: 200px 0;
   background-color: #70bfff;
 }
-.services__page__inner {
+.services__inner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 }
-.services__page__menu__wrapper {
+.services__menu__wrapper {
 }
-.services__page__menu__list {
+.services__menu__list {
 }
-.services__page__menu__list__item {
+.services__menu__list__item {
 }
-.services__page__menu__list__item__btn {
+.services__menu__list__item__btn {
 }
-.services__page__menu__list__item__btn__text {
+.services__menu__list__item__btn__text {
 }
-.services__page__menu__list__item__img {
+.services__menu__list__item__img {
 }
-.services__page__content__wrapper {
+.services__content__wrapper {
 }
-.services__page__content__title__wrapper {
+.services____title__wrapper {
 }
-.services__page__content__title {
+.services____title {
+}
+.services__img__wrapper{
+
+}
+.service__img{
+  
 }
