@@ -1,10 +1,9 @@
 .about {
   position: relative;
-  min-height: 50%;
   font-family: "Raleway";
 }
 .about__wrapper {
-  max-width: 100%;
+
   padding: 50px 0;
   background-color: #00c4c4;
   background-image: radial-gradient(
@@ -23,8 +22,8 @@
   flex-direction: row-reverse;
 }
 .about__content__wrapper {
-  margin: 0;
-  padding: 0;
+width: 50%;
+margin: 50px 0;
 }
 .about__title__inner {
 }
@@ -42,15 +41,16 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 300;
-  line-height: 4vh;
+  line-height: 2em;
 }
+/* img */
 .about__img__wrapper {
   padding: 0;
 }
 .about__page__img__inner{
-  
+  width: 50%;
 }
 .about__page__img {
-  margin-left: -15%;
-  margin-right: 15%;
+margin-left: -15%;
+  padding-right: 15%;
 }

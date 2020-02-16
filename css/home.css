@@ -1,23 +1,26 @@
 .home {
   position: relative;
-  min-height: 100% ;
+  width:100% ;
+  max-height: 100vh ;
   font-family: "Raleway";
   z-index: 3;
 }
 
 /* content */
 .home__wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 100%;
-  min-height: 100vh;
-  
+
+
 }
 .home__inner{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
 
 }
 .home__content__wrapper {
+  padding: 300px 0;
+  margin: 75px 0;
   width: 375px;
 }
 .home__title__inner {
@@ -25,10 +28,9 @@
 }
 .home__title {
   color: #262626;
-  font-family: "Raleway - Heavy";
+  font-family: "Raleway";
   font-size: 60px;
   font-weight: 400;
-  line-height: 25px;
 }
 .home__subtitle__inner {
   padding: 25px 0;
@@ -37,8 +39,9 @@
   color: #262626;
   font-size: 17px;
   font-weight: 300;
-  line-height: 27px;
+  /* line-height: 27px; */
 }
+/* btn */
 .home__btn__inner {
 }
 .home__btn {
@@ -47,7 +50,7 @@
   background-color: #ff6033;
   font-size: 20px;
   font-weight: 300;
-  line-height: 27px;
+  /* line-height: 27px; */
 }
 .home__btn__text {
   padding:  25px  0;
@@ -62,18 +65,19 @@
   align-items: flex-end;
   z-index: 2;
 } */
+/* img */
 .home__page__img {
   position: absolute;
+
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: auto ;
-
-  background-color: #f9f9fb;
+  background-color:#f9f8fb ;
   background-image: url("file:///home/ronin/Documents/dev/maket/img/header/strawberry.png");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 80vw 100%;
+   background-size: 80vw 100%; 
   z-index: 1;
-}
+} 

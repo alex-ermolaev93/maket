@@ -1,0 +1,108 @@
+.blog{
+    position: relative;
+
+    font-family: "Raleway";
+}
+.blog__wrapper{
+
+}
+.blog__inner{
+
+}
+/* content */
+.blog__content__wrapper{
+
+}
+.blog__title__inner{
+
+}
+.blog__title{
+
+}
+.blog__subtitle__inner{
+
+}
+.blog__subtitle{
+
+}
+/* items */
+.blog__item__wrapper{
+
+}
+/* first */
+.blog__item__first__wrapper{
+
+}
+.blog__item__first__img__wrapper{
+
+}
+.blog__item__first__img{
+
+}
+/* second */
+.blog__item__second__wrapper{
+
+}
+.blog__item__second__img__wrapper{
+
+}
+.blog__item__second__img{
+
+}
+/* third  */
+.blog__item__third__wrapper{
+
+}
+.blog__item__third__img__wrapper{
+    
+}
+.blog__item__third__img{
+
+}
+
+/* items text */
+.blog__item__text__wrapper{
+
+}
+
+.blog__item__text__title__inner{
+
+}
+.blog__item__text__title{
+
+}
+.blog__item__text__subtitle__inner{
+
+}
+.blog__item__text__subtitle{
+
+}
+/* day */
+.blog__item__day__inner{
+
+}
+.blog__item__day__num__wrapper{
+
+}
+.blog__item__day__num{
+
+}
+.blog__item__day__text__wrapper{
+
+}
+.blog__item__day__text{
+
+}
+/* btn */
+.blog__btn__wrapper{
+
+}
+.blog__btn{
+
+}
+.blog__btn__text__wrapper{
+
+}
+.blog__btn__text{
+
+}

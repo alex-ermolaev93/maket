@@ -1,0 +1,44 @@
+.gallery {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: "Raleway";
+}
+.gallery__wrapper {
+  padding: 60px 0;
+  background-color: #ffe92f;
+}
+.gallery__inner {
+}
+/* contetn */
+.gallery__content__wrapper {
+}
+.gallery__title__inner {
+}
+.gallery__title {
+
+}
+.gallery__subtitle__inner {
+}
+/* img */
+.gallery__img__wrapper {
+}
+.gallery__img__inner {
+}
+.gallery__img__item__first {
+}
+.gallery__img__item__second {
+}
+.gallery__img__item__third {
+}
+.gallery__img__item__fourth {
+}
+.gallery__img__item__fifth {
+}
+/* btn */
+.gallery__btn__wrapper {
+}
+.gallery__btn {
+}
+.gallery__btn__text {
+}
