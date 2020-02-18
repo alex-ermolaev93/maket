@@ -44,11 +44,11 @@
   z-index: 10;
 }
 .header__menu__list__item {
-
-  
+margin: 10px ; 
 }
 .header__menu__list__item__btn {
-  padding-left: 35px;
+  padding: 10px;
+margin-left:5px  ;
   color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: 700;

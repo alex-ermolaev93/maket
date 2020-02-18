@@ -1,14 +1,13 @@
 .home {
   position: relative;
-  width:100% ;
-  max-height: 100vh ;
+  background-color:#f9f8fb ;
   font-family: "Raleway";
   z-index: 3;
 }
 
 /* content */
 .home__wrapper {
-
+margin-bottom: -5px;
 
 }
 .home__inner{
@@ -45,6 +44,7 @@
 .home__btn__inner {
 }
 .home__btn {
+  border: 0;
   padding:15px 20px;
   box-shadow: 0 20px 30px rgba(255, 96, 51, 0.3);
   background-color: #ff6033;
@@ -53,7 +53,7 @@
   /* line-height: 27px; */
 }
 .home__btn__text {
-  padding:  25px  0;
+  padding: 0  10px;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -67,8 +67,22 @@
 } */
 /* img */
 .home__page__img {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto ;
+  margin-bottom: -15px;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/header/strawberry.png");
+  background-repeat: no-repeat;
+  background-position: top;
+} 
+/* .home__page__img {
   position: absolute;
-
   top: 0;
   bottom: 0;
   right: 0;
@@ -80,4 +94,4 @@
   background-repeat: no-repeat;
    background-size: 80vw 100%; 
   z-index: 1;
-} 
+}  */

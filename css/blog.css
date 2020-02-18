@@ -1,108 +1,84 @@
-.blog{
-    position: relative;
-
-    font-family: "Raleway";
+.blog {
+  position: relative;
+  font-family: "Raleway";
 }
-.blog__wrapper{
-
+.blog__wrapper {
+  padding: 150px 0;
+  background-color: #b07cf7;
 }
-.blog__inner{
-
+.blog__inner {
+  display: flex;
+  flex-direction: column;
 }
 /* content */
-.blog__content__wrapper{
-
+.blog__content__wrapper {
 }
-.blog__title__inner{
-
+.blog__title__inner {
 }
-.blog__title{
-
+.blog__title {
 }
-.blog__subtitle__inner{
-
+.blog__subtitle__inner {
 }
-.blog__subtitle{
-
+.blog__subtitle {
 }
 /* items */
-.blog__item__wrapper{
-
+.blog__item__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 /* first */
-.blog__item__first__wrapper{
-
+.blog__item__first__wrapper {
 }
-.blog__item__first__img__wrapper{
-
+.blog__item__first__img__wrapper {
 }
-.blog__item__first__img{
-
+.blog__item__first__img {
 }
 /* second */
-.blog__item__second__wrapper{
-
+.blog__item__second__wrapper {
 }
-.blog__item__second__img__wrapper{
-
+.blog__item__second__img__wrapper {
 }
-.blog__item__second__img{
-
+.blog__item__second__img {
 }
 /* third  */
-.blog__item__third__wrapper{
-
+.blog__item__third__wrapper {
 }
-.blog__item__third__img__wrapper{
-    
+.blog__item__third__img__wrapper {
 }
-.blog__item__third__img{
-
+.blog__item__third__img {
 }
 
 /* items text */
-.blog__item__text__wrapper{
-
+.blog__item__text__wrapper {
 }
 
-.blog__item__text__title__inner{
-
+.blog__item__text__title__inner {
 }
-.blog__item__text__title{
-
+.blog__item__text__title {
 }
-.blog__item__text__subtitle__inner{
-
+.blog__item__text__subtitle__inner {
 }
-.blog__item__text__subtitle{
-
+.blog__item__text__subtitle {
 }
 /* day */
-.blog__item__day__inner{
-
+.blog__item__day__inner {
 }
-.blog__item__day__num__wrapper{
-
+.blog__item__day__num__wrapper {
 }
-.blog__item__day__num{
-
+.blog__item__day__num {
 }
-.blog__item__day__text__wrapper{
-
+.blog__item__day__text__wrapper {
 }
-.blog__item__day__text{
-
+.blog__item__day__text {
 }
 /* btn */
-.blog__btn__wrapper{
-
+.blog__btn__wrapper {
 }
-.blog__btn{
-
+.blog__btn {
 }
-.blog__btn__text__wrapper{
-
+.blog__btn__text__wrapper {
 }
-.blog__btn__text{
-
+.blog__btn__text {
 }
