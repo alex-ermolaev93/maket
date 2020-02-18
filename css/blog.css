@@ -12,15 +12,29 @@
 }
 /* content */
 .blog__content__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 .blog__title__inner {
 }
 .blog__title {
+  color: #ffffff;
+  font-size: 90px;
+  font-weight: 700;
 }
 .blog__subtitle__inner {
+  width: 52%;
+  margin: 5px 0;
+  padding: 20px 0;
 }
 .blog__subtitle {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
 }
+/* todo переделать обратно в картинки но с слоями */
 /* items */
 .blog__item__wrapper {
   display: flex;
@@ -32,6 +46,13 @@
 .blog__item__first__wrapper {
 }
 .blog__item__first__img__wrapper {
+  /* display: flex;
+  align-items: center; */
+
+  margin: auto;
+  margin-bottom: -5px;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/kiwi.png");
+  background-repeat: no-repeat;
 }
 .blog__item__first__img {
 }
@@ -39,6 +60,10 @@
 .blog__item__second__wrapper {
 }
 .blog__item__second__img__wrapper {
+  margin: auto;
+  margin-bottom: -5px;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/soup.png");
+  background-repeat: no-repeat;
 }
 .blog__item__second__img {
 }
@@ -46,6 +71,10 @@
 .blog__item__third__wrapper {
 }
 .blog__item__third__img__wrapper {
+  margin: auto;
+  margin-bottom: -5px;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/raspberries.png");
+  background-repeat: no-repeat;
 }
 .blog__item__third__img {
 }
