@@ -1,5 +1,6 @@
 .blog {
   position: relative;
+  min-width: 100%;
   font-family: "Raleway";
 }
 .blog__wrapper {
@@ -34,80 +35,130 @@
   font-size: 17px;
   font-weight: 300;
 }
+
 /* todo переделать обратно в картинки но с слоями */
+
 /* items */
-.blog__item__wrapper {
+.blog__content__item__wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-}
-/* first */
-.blog__item__first__wrapper {
-}
-.blog__item__first__img__wrapper {
-  /* display: flex;
-  align-items: center; */
-
-  margin: auto;
-  margin-bottom: -5px;
-  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/kiwi.png");
-  background-repeat: no-repeat;
-}
-.blog__item__first__img {
-}
-/* second */
-.blog__item__second__wrapper {
-}
-.blog__item__second__img__wrapper {
-  margin: auto;
-  margin-bottom: -5px;
-  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/soup.png");
-  background-repeat: no-repeat;
-}
-.blog__item__second__img {
-}
-/* third  */
-.blog__item__third__wrapper {
-}
-.blog__item__third__img__wrapper {
-  margin: auto;
-  margin-bottom: -5px;
-  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/raspberries.png");
-  background-repeat: no-repeat;
-}
-.blog__item__third__img {
 }
 
-/* items text */
-.blog__item__text__wrapper {
+.blog__item__wrapper {
+  margin: 5px;
+}
+.blog__item__inner {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
-.blog__item__text__title__inner {
-}
-.blog__item__text__title {
-}
-.blog__item__text__subtitle__inner {
-}
-.blog__item__text__subtitle {
-}
 /* day */
+.blog__item__day__wrapper {
+  display: flex;
+  justify-content: flex-start;
+
+  /* width:60px;
+height: 60px; */
+  /* margin: 10px 5px 40%; */
+  /* margin-bottom: 40% ; */
+  border-radius: 5px;
+  background-color: #262626;
+  opacity: 0.5;
+}
 .blog__item__day__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  color: #ffffff;
 }
 .blog__item__day__num__wrapper {
 }
 .blog__item__day__num {
+  font-size: 32px;
+  font-weight: 700;
 }
 .blog__item__day__text__wrapper {
 }
 .blog__item__day__text {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* items text */
+.blog__item__text__wrapper {
+  padding: 5px;
+  color: #ffffff;
+}
+.blog__item__text__title__inner {
+}
+.blog__item__text__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.blog__item__text__subtitle__inner {
+}
+.blog__item__text__subtitle {
+  font-size: 13px;
+  font-weight: 300;
+}
+/* first */
+
+.blog__item__img__first {
+  width: 360px;
+  height: 310px;
+  margin: auto;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/kiwi.png");
+  background-repeat: no-repeat;
+}
+
+/* second */
+
+.blog__item__img__second {
+  width: 360px;
+  height: 310px;
+  margin: auto;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/soup.png");
+  background-repeat: no-repeat;
+}
+
+/* third  */
+
+.blog__item__img__third {
+  width: 360px;
+  height: 310px;
+  margin: auto;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/raspberries.png");
+  background-repeat: no-repeat;
 }
 /* btn */
 .blog__btn__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  padding: 10px 0;
 }
 .blog__btn {
+  border: 0;
+  margin: 0;
+  padding: 20px 43px;
+  box-shadow: 0 20px 30px rgba(247, 43, 59, 0.3);
+  background-color: #f72b3b;
 }
 .blog__btn__text__wrapper {
 }
 .blog__btn__text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
+
+/* .blog__item__second__img {
+} */
+/* .blog__item__first__img {
+} */
+/* .blog__item__third__img {
+} */

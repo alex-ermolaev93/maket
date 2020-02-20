@@ -1,112 +1,81 @@
-.contact{
-    position: relative;
-    font-family: "Raleway";
+.contact {
+  position: relative;
+  font-family: "Raleway";
 }
-.contact__wrapper{
+.contact__wrapper {
 
 }
-.contact__inner{
-
+.contact__inner {
+  margin: 100px 0;
+  padding: 60px 0;
 }
 /* content */
-.contact__content__wrapper{
+.contact__content__wrapper {
 
 }
-.contact__title__inner{
-
+.contact__title__inner {
+  padding: 20px 0;
 }
-.contact__title{
-
+.contact__title {
 }
-.contact__subtitle__inner{
-
+.contact__subtitle__inner {
 }
-.contact__subtitle{
-
+.contact__subtitle {
 }
 /* submit */
-.contact__submit__wrapper{
-
+.contact__submit__wrapper {
 }
-.contact__submit__inner{
-    
+.contact__submit__inner {
 }
 /* form */
-.contact__form{
-
+.contact__form {
 }
 /* text name */
-.contact__submit__text__wrapper{
-
+.contact__submit__text__wrapper {
 }
-.contact__submit__text{
-
+.contact__submit__text {
 }
 /* email */
-.contact__submit__email__wrapper{
-
+.contact__submit__email__wrapper {
 }
-.contact__submit__email{
-
+.contact__submit__email {
 }
 /* number */
-.contact__submit__number__wrapper{
-
+.contact__submit__number__wrapper {
 }
-.contact__submit__number{
-
+.contact__submit__number {
 }
 /* comment */
-.contact__submit__comment__wrapper{
-
+.contact__submit__comment__wrapper {
 }
-.contact__submit__comment{
-
+.contact__submit__comment {
 }
 /* submit btn */
-.contact__submit__btn__wrapper{
-
+.contact__submit__btn__wrapper {
 }
-.contact__submit__btn{
-
+.contact__submit__btn {
 }
 /* contact list */
-.contact__my__list__inner{
-
+.contact__my__list__inner {
 }
-.contact__my__list__title__wrapper{
-
+.contact__my__list__title__wrapper {
 }
-.contact__my__list__title{
-
+.contact__my__list__title {
 }
-.contact__my__list__subtitle__wrapper{
-
+.contact__my__list__subtitle__wrapper {
 }
-.contact__my__list__subtitle{
-
+.contact__my__list__subtitle {
 }
 /* img */
-.contact__img__wrapper{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 866px;
-    margin: auto;
-    margin-bottom: -5px;
-    background-image: url("file:///home/ronin/Documents/dev/maket/img/body/sun.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+.contact__img__wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 866px;
+  margin: auto;
+  background-image: url("file:///home/ronin/Documents/dev/maket/img/body/sun.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-/* .subscribe__img__wrapper {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 866px;
-    margin: auto;
-    margin-bottom: -5px;
-    background-image: url("file:///home/ronin/Documents/dev/maket/img/body/blackberry2.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-  } */
+
