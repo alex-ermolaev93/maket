@@ -456,7 +456,7 @@
 
             <section class="contact" id="contact">
                 <div class="contact__wrapper">
-                    <div class="contact__img__wrapper">
+                    <div class="contact__img">
                         <div class="container">
 
                             <div class="contact__inner">
@@ -466,30 +466,32 @@
                                     </div>
                                     <div class="contact__subtitle__inner">
                                         <p class="contact__subtitle">For new project ideas, business or anything
-                                            you'd like to discuss, contact
+                                            you'd like to discuss, contact with me!
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="contact__submit__wrapper">
                                     <div class="contact__submit__inner">
-                                        <form class="contact__form">
-                                            <div class="contact__submit__text__wrapper">
-                                                <input class="contact__submit__text" type="text" name="Auskteez Tran">
+                                        <form class="contact__submit__form">
+                                            <div class="contact__submit__form__text__wrapper contact__submit__form__name__wrapper">
+                                                <input class="contact__submit__form__text contact__submit__form__name" type="text" name="full name" required placeholder="Auskteez Tran">
                                             </div>
-                                            <div class="contact__submit__email__wrapper">
-                                                <input class="contact__submit__email" type="email" name='Your email...'>
+                                            <div class="contact__submit__form__text__wrapper">
+                                                <input class="contact__submit__form__text" type="email"  required
+                                                placeholder="Your email" name='email'>
                                             </div>
-                                            <div class="contact__submit__number__wrapper">
-                                                <input class="contact__submit__number" type="number"
-                                                    name="Your phone number">
+                                            <div class="contact__submit__form__text__wrapper">
+                                                <input class="contact__submit__form__text" type="tel"
+                                                id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Your phone number..."
+                                                    required>
                                             </div>
-                                            <div class="contact__submit__comment__wrapper">
-                                                <textarea class="contact__submit__comment" type="comment" rows="10"
-                                                    cols="30"> </textarea>
+                                            <div class="contact__submit__form__comment__wrapper">
+                                                <textarea class="contact__submit__form__comment contact__submit__form__text" type="comment" rows="10"
+                                                    cols="30" required placeholder="Your messge..."> </textarea>
                                             </div>
-                                            <div class="contact__submit__btn__wrapper">
-                                                <input class="contact__submit__btn" type='submit' value="send">
+                                            <div class="contact__submit__form__btn__wrapper">
+                                                <input class="contact__submit__form__btn" type='submit' value="send" required placeholder="send">
                                             </div>
                                         </form>
                                     </div>
@@ -498,7 +500,7 @@
                                             <h3 class="contact__my__list__title">address</h3>
                                         </div>
                                         <div class="contact__my__list__subtitle__wrapper">
-                                            <p class="contact__my__list__subtitle">City, Street</p>
+                                            <p class="contact__my__list__subtitle">123 City name, Street, City, Country</p>
                                         </div>
                                         <div class="contact__my__list__title__wrapper">
                                             <h3 class="contact__my__list__title">email</h3>
