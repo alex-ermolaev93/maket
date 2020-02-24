@@ -64,9 +64,9 @@
   background-color: #00c4c4;
   opacity: 0.5;
 }
-input::placeholder {
+ /* ::placeholder .contact__submit__form__text {
   color: #ffffff;
-}
+} */
 
 /* comment */
 .contact__submit__form__comment__wrapper {

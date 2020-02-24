@@ -36,8 +36,6 @@
   font-weight: 300;
 }
 
-/* todo переделать обратно в картинки но с слоями */
-
 /* items */
 .blog__content__item__wrapper {
   display: flex;
@@ -52,18 +50,15 @@
 .blog__item__inner {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
 }
 
 /* day */
 .blog__item__day__wrapper {
   display: flex;
-  justify-content: flex-start;
-
-  /* width:60px;
-height: 60px; */
-  /* margin: 10px 5px 40%; */
-  /* margin-bottom: 40% ; */
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px 35%;
   border-radius: 5px;
   background-color: #262626;
   opacity: 0.5;
@@ -72,7 +67,6 @@ height: 60px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
   text-align: center;
   color: #ffffff;
 }
@@ -91,8 +85,12 @@ height: 60px; */
 
 /* items text */
 .blog__item__text__wrapper {
-  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  padding: 10px;
   color: #ffffff;
+
 }
 .blog__item__text__title__inner {
 }
@@ -150,6 +148,7 @@ height: 60px; */
   background-color: #f72b3b;
 }
 .blog__btn__text__wrapper {
+  margin: 2px;
 }
 .blog__btn__text {
   color: #ffffff;

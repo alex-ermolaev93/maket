@@ -40,7 +40,7 @@
 .header__menu__list {
   display: flex;
   justify-content: space-between;
-  
+  flex-wrap: wrap;
   z-index: 10;
 }
 .header__menu__list__item {
