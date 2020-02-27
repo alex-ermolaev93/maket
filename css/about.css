@@ -1,5 +1,6 @@
 .about {
   position: relative;
+  min-width: 100%;
   font-family: "Raleway";
 }
 .about__wrapper {
@@ -19,10 +20,11 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
+  /* flex-wrap: wrap; */
 }
 .about__content__wrapper {
 width: 50%;
-margin: 50px 0;
+margin: 0 50px;
 }
 .about__title__inner {
 }
@@ -44,12 +46,11 @@ margin: 50px 0;
 }
 /* img */
 .about__img__wrapper {
+  width: 50%;
   padding: 0;
 }
-.about__page__img__inner{
-  width: 50%;
-}
 .about__page__img {
-margin-left: -15%;
-  padding-right: 15%;
+  width:100%;
+  height: 100%;
+
 }

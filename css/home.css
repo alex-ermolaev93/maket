@@ -58,13 +58,7 @@ margin-bottom: -5px;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* .home__scroll {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  z-index: 2;
-} */
+
 /* img */
 .home__page__img {
   top: 0;
@@ -81,17 +75,3 @@ margin-bottom: -5px;
   background-repeat: no-repeat;
   background-position: top;
 } 
-/* .home__page__img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto ;
-  background-color:#f9f8fb ;
-  background-image: url("file:///home/ronin/Documents/dev/maket/img/header/strawberry.png");
-  background-position: top;
-  background-repeat: no-repeat;
-   background-size: 80vw 100%; 
-  z-index: 1;
-}  */

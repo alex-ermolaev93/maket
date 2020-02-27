@@ -1,7 +1,8 @@
 .gallery {
   position: relative;
-  min-height: 100%;
-  min-width: 100%;
+  /* min-width: 100vw; */
+  /* min-height: 100%; */
+  
   font-family: "Raleway";
 }
 .gallery__wrapper {
@@ -48,7 +49,7 @@
 .gallery__img__two__section__box__wrapper {
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
 }
 .gallery__img__three__section__box__wrapper {
   display:flex;
@@ -61,6 +62,7 @@ flex-wrap: wrap;
   margin:0 5px;
 }
 .gallery__img__first {
+  
 }
 .gallery__img__second__inner {
   width:30%;
@@ -82,7 +84,7 @@ flex-wrap: wrap;
 }
 .gallery__img__fifth__inner {
   width: 48%;
-  margin: 0 5px;
+  margin:  5px;
 }
 .gallery__img__fifth {
 }

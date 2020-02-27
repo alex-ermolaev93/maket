@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/layout.css" type="text/css">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1" />
 
+    <link rel="stylesheet" href="./css/layout.css" type="text/css">
     <link rel="stylesheet" href="./css/style-global.css" type="text/css">
     <link rel="stylesheet" href="./css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./css/ responsive.css" type="text/css">
 
     <link rel="stylesheet" href="./css/header.css" type="text/css">
     <link rel="stylesheet" href="./css/home.css" type="text/css">
@@ -64,14 +65,12 @@
                     </div>
 
                 </div>
-                <!-- <div class="home__page__content__img"></div> -->
 
             </div>
         </header>
 
         <main class="main-content">
 
-            <!-- <div class="home__page__img"></div> -->
             <section class="home" id="home">
                 <div class="home__wrapper">
                     <div class="home__page__img">
@@ -98,11 +97,7 @@
                                     </div>
 
                                 </div>
-                                <!-- <div class="home__page__scroll__wrapper">
-                                <a class="home__page__scroll " href="#header">
-                                    <img class="home__scroll" src="img/icon/scroll.png" alt="scroll">
-                                </a>
-                            </div> -->
+
                             </div>
 
                         </div>
@@ -133,9 +128,9 @@
                                 </div>
                             </div>
                             <div class='about__img__wrapper'>
-                                <div class="about__page__img__inner">
+
                                     <img class="about__page__img" src="img/body/whit_cup.png" alt="whit_cup">
-                                </div>
+
                             </div>
                         </div>
 
@@ -143,7 +138,6 @@
                 </div>
             </section>
 
-            <!-- todo переделать кнопки в ссылки с спан -->
             <section class="services" id="services">
                 <div class="services__wrapper">
 
@@ -354,12 +348,7 @@
 
                                             <div class="blog__item__day__wrapper">
                                                 <div class="blog__item__day__inner">
-                                                    <div class="blog__item__day__num__wrapper">
-                                                        <p class='blog__item__day__num'>20</p>
-                                                    </div>
-                                                    <div class="blog__item__day__text__wrapper">
-                                                        <p class='blog__item__day__text'>nov</p>
-                                                    </div>
+                                                    <p class='blog__item__day__num'>20 nov</p>
                                                 </div>
                                             </div>
 
@@ -384,12 +373,7 @@
 
                                             <div class="blog__item__day__wrapper">
                                                 <div class="blog__item__day__inner">
-                                                    <div class="blog__item__day__num__wrapper">
-                                                        <p class='blog__item__day__num'>14</p>
-                                                    </div>
-                                                    <div class="blog__item__day__text__wrapper">
-                                                        <p class='blog__item__day__text'>nov</p>
-                                                    </div>
+                                                    <p class='blog__item__day__num'>14 nov</p>
                                                 </div>
                                             </div>
 
@@ -414,12 +398,7 @@
                                             <div class="blog__item__day__wrapper">
 
                                                 <div class="blog__item__day__inner">
-                                                    <div class="blog__item__day__num__wrapper">
-                                                        <p class='blog__item__day__num'>10</p>
-                                                    </div>
-                                                    <div class="blog__item__day__text__wrapper">
-                                                        <p class='blog__item__day__text'>nov</p>
-                                                    </div>
+                                                    <p class='blog__item__day__num'>10 nov</p>
                                                 </div>
                                             </div>
 
@@ -473,24 +452,29 @@
                                 <div class="contact__submit__wrapper">
                                     <div class="contact__submit__inner">
                                         <form class="contact__submit__form">
-                                            <div class="contact__submit__form__text__wrapper contact__submit__form__name__wrapper">
-                                                <input class="contact__submit__form__text contact__submit__form__name" type="text" name="full name" required placeholder="Auskteez Tran">
+                                            <div
+                                                class="contact__submit__form__text__wrapper contact__submit__form__name__wrapper">
+                                                <input class="contact__submit__form__text contact__submit__form__name"
+                                                    type="text" name="full name" required placeholder="Auskteez Tran">
                                             </div>
                                             <div class="contact__submit__form__text__wrapper">
-                                                <input class="contact__submit__form__text" type="email"  required
-                                                placeholder="Your email" name='email'>
+                                                <input class="contact__submit__form__text" type="email" required
+                                                    placeholder="Your email" name='email'>
                                             </div>
                                             <div class="contact__submit__form__text__wrapper">
-                                                <input class="contact__submit__form__text" type="tel"
-                                                id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Your phone number..."
-                                                    required>
+                                                <input class="contact__submit__form__text" type="tel" id="phone"
+                                                    name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                    placeholder="Your phone number..." required>
                                             </div>
                                             <div class="contact__submit__form__comment__wrapper">
-                                                <textarea class="contact__submit__form__comment contact__submit__form__text" type="comment" rows="10"
-                                                    cols="30" required placeholder="Your messge..."> </textarea>
+                                                <textarea
+                                                    class="contact__submit__form__comment contact__submit__form__text"
+                                                    type="comment" rows="10" cols="30" required
+                                                    placeholder="Your messge..."> </textarea>
                                             </div>
                                             <div class="contact__submit__form__btn__wrapper">
-                                                <input class="contact__submit__form__btn" type='submit' value="send" required placeholder="send">
+                                                <input class="contact__submit__form__btn" type='submit' value="send"
+                                                    required placeholder="send">
                                             </div>
                                         </form>
                                     </div>
@@ -499,7 +483,8 @@
                                             <h3 class="contact__my__list__title">address</h3>
                                         </div>
                                         <div class="contact__my__list__subtitle__wrapper">
-                                            <p class="contact__my__list__subtitle">123 City name, Street, City, Country</p>
+                                            <p class="contact__my__list__subtitle">123 City name, Street, City, Country
+                                            </p>
                                         </div>
                                         <div class="contact__my__list__title__wrapper">
                                             <h3 class="contact__my__list__title">email</h3>
@@ -528,15 +513,18 @@
 
         <footer class="footer">
             <div class="footer__wrapper">
-                <div class="footer__inner">
-                    <div class="footer__year__wrapper">
-                        <p class="footer__year">© 2015 Company. All right reserved.</p>
-                    </div>
-                    <div class="footer__logo__wrapper">
-                        <p class="footer__logo">Cahee</p>
-                    </div>
-                    <div class="footer__made__wrapper">
-                        <p class="footer__made">Made with <span class="footer__made__word">love</span> by Auskteez</p>
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__year__wrapper">
+                            <p class="footer__year">© 2015 Company. All right reserved.</p>
+                        </div>
+                        <div class="footer__logo__wrapper">
+                            <p class="footer__logo">Cahee</p>
+                        </div>
+                        <div class="footer__made__wrapper">
+                            <p class="footer__made">Made with <span class="footer__made__word">love</span> by Auskteez
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

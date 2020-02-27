@@ -70,18 +70,12 @@
   text-align: center;
   color: #ffffff;
 }
-.blog__item__day__num__wrapper {
-}
+
 .blog__item__day__num {
   font-size: 32px;
   font-weight: 700;
 }
-.blog__item__day__text__wrapper {
-}
-.blog__item__day__text {
-  font-size: 32px;
-  font-weight: 700;
-}
+
 
 /* items text */
 .blog__item__text__wrapper {
@@ -157,9 +151,4 @@
   text-transform: uppercase;
 }
 
-/* .blog__item__second__img {
-} */
-/* .blog__item__first__img {
-} */
-/* .blog__item__third__img {
-} */
+

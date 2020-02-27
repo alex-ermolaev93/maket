@@ -5,6 +5,8 @@
 .subscribe__wrapper {
 }
 .subscribe__inner {
+  display: flex;
+  flex-direction: row;
 }
 /* content */
 .subscribe__content__wrapper {
@@ -30,7 +32,8 @@
 .subscribe__input__wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: flex-start;
+  
   width: 100%;
   padding: 20px 0;
 }

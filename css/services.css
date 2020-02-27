@@ -1,6 +1,5 @@
 .services {
   position: relative;
-  min-width: 100%;
   min-height: 100%;
   font-family: "Raleway";
 }
@@ -38,7 +37,7 @@ width: 35%;
   background-color: #ffffff;
 }
 .services__menu__list__btn__text__inner {
-  width: 70%;
+  width: 65%;
 }
 .services__menu__list__btn__text {
   display: flex;
@@ -79,4 +78,6 @@ width: 35%;
   z-index: 1;
 }
 .service__img {
+  width: 100%;
+  height: 100%;
 }
