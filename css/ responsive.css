@@ -1,84 +1,59 @@
-@media all and (min-width: 1920px) {
-     .contact__img, .subscribe__img__wrapper{
-        background-size: cover;
-    }
-}
-/* @media (min-width: 1701px) and (max-width: 1920px){
-                .portfolio__windows {
-                    height: 130px;
-                    width: 130px;
-    }
-}
-
-@media (min-width: 1501px) and (max-width: 1700px){
-    .portfolio__windows {
-        height: 105px;
-        width: 130px;
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1500px){
-    .portfolio__windows {
-        height: 95px;
-        width: 130px;
-    }
-} */
-
-@media all and (max-width: 1200px){
-
-}
 
 @media all and (max-width: 720px) {
-
-    .gallery__img__one__section__box__wrapper {
+  .gallery__img__first {
+    width: 100%;
+    height: 100%;
+  }
+  .gallery__img__one__section__box__wrapper {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
-    }
-    .gallery__img__two__section__box__wrapper{
-        align-items: center;
-        flex-direction: row;
-    }
-    .gallery__img__three__section__box__wrapper{
-        flex-direction: column;
-        /* flex-wrap: wrap;     */
-    }
-    
+  }
+  .gallery__img__two__section__box__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallery__img__three__section__box__wrapper {
+    flex-direction: column;
+    /* flex-wrap: wrap;     */
+  }
 }
 
 @media all and (max-width: 600px) {
-    .section__title {
-        font-size: 18px;
-        text-align: center;
-        padding: 0 5px;
-    }
-    .section__subtitle {
-        text-align: center;
-        font-size: 12px;
-    }
+  .section__title {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+  }
+  .section__subtitle {
+    text-align: center;
+    font-size: 12px;
+  }
 
-    .about__photo {
-        width: 230px;
-        height: 230px;
-    }
+  .about__photo {
+    width: 230px;
+    height: 230px;
+  }
 }
 
 @media all and (max-width: 480px) {
-    .about .section__subtitle {
-        width: unset;
-    }
-    .about__photo {
-        width: 185px;
-        height: 185px;
-    }
-    .contact {
-        padding: 0;
-    }
+  .about .section__subtitle {
+    width: unset;
+  }
+  .about__photo {
+    width: 185px;
+    height: 185px;
+  }
+  .contact {
+    padding: 0;
+  }
 
-    .skills__list {
-        font-size: 12px;
-    }
+  .skills__list {
+    font-size: 12px;
+  }
 
-    .portfolio__info {
-        font-size: 12px;
-    }
+  .portfolio__info {
+    font-size: 12px;
+  }
 }
